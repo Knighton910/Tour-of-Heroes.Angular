@@ -8,12 +8,7 @@ import { Hero } from './hero';
 
 @Component({
   selector: 'hero-detail',
-  styles: [`
-    .me { 
-      color: red;
-      font-family: Blacksword, sans-serif;
-    }
-  `],
+  styleUrls: [`./hero-detail.component.css`],
   templateUrl: './hero-detail.component.html'
 })
 

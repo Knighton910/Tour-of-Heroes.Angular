@@ -43,7 +43,7 @@ __decorate([
 HeroDetailComponent = __decorate([
     core_1.Component({
         selector: 'hero-detail',
-        styles: ["\n    .me { \n      color: red;\n      font-family: Blacksword, sans-serif;\n    }\n  "],
+        styleUrls: ["./hero-detail.component.css"],
         templateUrl: './hero-detail.component.html'
     }),
     __metadata("design:paramtypes", [hero_service_1.HeroService,
